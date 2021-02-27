@@ -1,0 +1,155 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	background-color: #fcfcfb;
+	line-height: 1.5;
+	color: #2e3440;
+}
+
+.flex {
+	display: flex;
+	align-items: center;
+	height: 100%;
+}
+
+.container {
+	max-width: 800px;
+	margin: auto;
+	padding: 20px 40px;
+	overflow: auto;
+}
+
+/*HEADER*/
+
+#header {
+	background-color: #e5e9f0;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+}
+
+#header img {
+	opacity: 50%;
+}
+
+#header .flex {
+	justify-content: space-between;
+}
+
+#header a {
+	text-decoration: none;
+	color: #88c0d0;
+	padding: 16px;
+	font-size: 16px;
+}
+
+/* HERO */
+
+#hero {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+
+#hero .left-side {
+	display: flex;
+	flex-direction: column;
+	height: auto;
+	align-items: center;
+	justify-content: center;
+	box-shadow: rgba(0, 0, 0, 0.25) 0px 12.5px 25px -6px;
+	padding: 16px;
+	background-color: #e4e7ec1e;
+	border-radius: 8px;
+	text-align: center;
+}
+
+#hero #search form {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	padding: 40px;
+}
+
+#hero #search form input {
+	height: 30px;
+	margin-bottom: 20px;
+	background-color: #fcfcfb;
+	border: 1px solid #d8dee9;
+	color: #2e3440;
+	box-shadow: rgb(204, 219, 232) 3px 3px 6px 0px inset,
+		rgba(255, 255, 255, 0.5) -3px -3px 6px 1px inset;
+}
+
+#hero #search .btn {
+	width: 125px;
+	border-radius: 12px;
+	box-shadow: rgba(136, 165, 191, 0.48) 3px 1px 8px 0px,
+		rgba(255, 255, 255, 0.8) -3px -1px 8px 0px;
+	transition: transform 0.2s;
+}
+
+#hero #search .btn:hover {
+	transform: perspective(0.98);
+	background-color: rgba(136, 165, 191, 0.48);
+	color: #fbfbfc;
+}
+
+#hero .flex {
+	justify-content: space-between;
+	text-align: center;
+}
+
+#hero .right-side a {
+	text-decoration: none;
+	color: #88c0d0;
+	padding: 0 8px;
+	margin-top: -8px;
+	background-color: #fbfbfc;
+	border-radius: 30%;
+}
+
+#hero .right-side a:hover {
+	font-size: 18px;
+}
+
+#hero .right-side ul {
+	list-style-type: none;
+	display: flex;
+	justify-content: center;
+	flex-wrap: wrap;
+}
+
+#hero .right-side li {
+	width: 70px;
+	margin: 5px;
+	height: 70px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	text-align: center;
+	padding: 8px;
+}
+
+/* Footer */
+
+footer {
+	background-color: #e5e9f0;
+}
+
+footer .flex {
+	justify-content: space-between;
+}
+
+footer a {
+	color: #88c0d0;
+}
+
+footer p {
+	text-align: center;
+	font-size: 8px;
+}
+
+.credit {
+	font-size: 12px;
+}

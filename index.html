@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" href="index.css" />
+		<script src="index.js" defer></script>
+		<title>News ApI</title>
+	</head>
+	<body>
+		<header id="header">
+			<div class="container">
+				<div class="flex">
+					<!-- LEFT SIDE -->
+					<div id="logo">
+						<img
+							src="./images/iconfinder_Weather_Weather_Forecast_Typhoon_Hurricane_Climate_3859152.png"
+							alt="Weather Icon"
+						/>
+					</div>
+					<!-- RIGHT SIDE -->
+					<div>
+						<a href="#">Weather</a>
+						<a href="#">About</a>
+					</div>
+				</div>
+			</div>
+		</header>
+
+		<main>
+			<section id="hero">
+				<div class="container">
+					<div class="flex">
+						<!-- LEFT SIDE -->
+						<div class="left-side">
+							<div class="search-text">
+								<h1>Want the Weather?</h1>
+							</div>
+							<div id="search">
+								<form method="GET" action="/">
+									<input type="text" name="city" />
+									<input class="btn" type="submit" value="Get Weather" />
+								</form>
+							</div>
+						</div>
+						<!-- RIGHT SIDE -->
+						<div class="right-side">
+							<h2></h2>
+                            <h3></h3>
+                            <p>
+                            <a id="celsius" href="#">C°</a><a id="fahrenheit" href="#">F°</a>
+                            </p>
+							<div>
+								<ul>
+                                    <div class="item-holder"></div>
+                                </ul>
+							</div>
+						</div>
+					</div>
+				</div>
+			</section>
+		</main>
+        <footer>
+            <div class="container">
+				<div class="flex">
+					<!-- LEFT SIDE -->
+					<div id="logo">
+						<img
+							src="./images/iconfinder_Weather_Weather_Forecast_Typhoon_Hurricane_Climate_3859152.png"
+							alt="Weather Icon"
+						/>
+                        <p>&copy; P + B 2021</p>
+					</div>
+					<!-- RIGHT SIDE -->
+					<div>
+                        <p class="credit">Made By:
+                            <br>
+						<a href="https://github.com/philip-haines">Philip Haines</a> and <a href="https://github.com/blakerunyon09">Blake Runyon</a>
+                        </p>
+					</div>
+				</div>
+			</div>
+        </footer>
+	</body>
+</html>
