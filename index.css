@@ -24,9 +24,10 @@ body {
 
 #header {
 	background-color: #e5e9f0;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,	rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
-    width: 100vw;
-    height: 120px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
+		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	width: 100vw;
+	height: 120px;
 }
 
 img {
@@ -48,11 +49,11 @@ img {
 
 #hero {
 	padding-top: 60px;
-	padding-bottom: 60px;
+	padding-bottom: 30px;
 }
 
 #hero .container {
-    max-width: 900px;
+	max-width: 900px;
 }
 
 #hero .left-side {
@@ -115,11 +116,11 @@ img {
 }
 
 #hero h2 {
-    font-size: 36px;
+	font-size: 36px;
 }
 
 #hero h3 {
-    font-size: 24px;
+	font-size: 24px;
 }
 
 #hero .right-side a:hover {
