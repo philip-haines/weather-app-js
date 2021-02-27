@@ -167,3 +167,11 @@ footer p {
 .credit {
 	font-size: 12px;
 }
+
+/* MEDIA */
+
+@media only screen and (max-width: 700px) {
+    #hero .flex {
+        flex-direction: column;
+    }
+}
