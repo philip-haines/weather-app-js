@@ -14,7 +14,7 @@ body {
 }
 
 .container {
-	max-width: 800px;
+	max-width: 1050px;
 	margin: auto;
 	padding: 20px 40px;
 	overflow: auto;
@@ -24,11 +24,12 @@ body {
 
 #header {
 	background-color: #e5e9f0;
-	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,
-		rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+	box-shadow: rgba(0, 0, 0, 0.1) 0px 4px 6px -1px,	rgba(0, 0, 0, 0.06) 0px 2px 4px -1px;
+    width: 100vw;
+    height: 120px;
 }
 
-#header img {
+img {
 	opacity: 50%;
 }
 
@@ -40,20 +41,24 @@ body {
 	text-decoration: none;
 	color: #88c0d0;
 	padding: 16px;
-	font-size: 16px;
+	font-size: 20px;
 }
 
 /* HERO */
 
 #hero {
-	padding-top: 30px;
-	padding-bottom: 30px;
+	padding-top: 80px;
+	padding-bottom: 80px;
+}
+
+#hero .container {
+    max-width: 900px;
 }
 
 #hero .left-side {
 	display: flex;
 	flex-direction: column;
-	height: auto;
+	height: 320px;
 	align-items: center;
 	justify-content: center;
 	box-shadow: rgba(0, 0, 0, 0.25) 0px 12.5px 25px -6px;
@@ -68,7 +73,7 @@ body {
 	flex-direction: column;
 	align-items: center;
 	justify-content: center;
-	padding: 40px;
+	padding: 30px;
 }
 
 #hero #search form input {
@@ -107,6 +112,14 @@ body {
 	margin-top: -8px;
 	background-color: #fbfbfc;
 	border-radius: 30%;
+}
+
+#hero h2 {
+    font-size: 36px;
+}
+
+#hero h3 {
+    font-size: 24px;
 }
 
 #hero .right-side a:hover {
